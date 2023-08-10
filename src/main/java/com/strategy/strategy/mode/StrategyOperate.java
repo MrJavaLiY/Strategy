@@ -79,6 +79,7 @@ public class StrategyOperate {
             if (annotation == null) {
                 continue;
             }
+            //默认策略方法，进入索引无方法指向，则指向默认策略
             if (annotation.isDefault()) {
                 this.defaultClass = instanceClass;
                 this.defaultMethod = method;
@@ -161,10 +162,17 @@ public class StrategyOperate {
         try {
             return method.invoke(obj, parameters);
         } catch (InvocationTargetException e) {
+            //将详细的原始异常抛出，避免业务报错无法被查看
             throw (Exception) e.getTargetException();
         }
     }
 
+    /**
+     * 判断进入参数数量是否符合方法的入参数量
+     * @param clazz
+     * @param method
+     * @param parameters
+     */
     private void paramTypeEq(Class<?> clazz, Method method, Object[] parameters) {
         Class<?>[] parameterTypes = method.getParameterTypes();
         if (parameterTypes.length != parameters.length) {
