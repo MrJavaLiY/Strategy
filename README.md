@@ -1,6 +1,6 @@
 # Strategy
 # 说明 illustrate
-这是一种基于**键值模型**以及**java反射技术**实现的一种策略模式新型实现方式。
+这是一种基于**键值模型**以及**java反射技术**实现的策略模式新型实现方式。
 
 This is a new implementation method of strategy pattern based on key value model and Java reflection technology.
 
