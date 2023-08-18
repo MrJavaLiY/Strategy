@@ -31,16 +31,6 @@ This is a new implementation method of strategy pattern based on key value model
 
 3: Call the execution method, pass in parameters and index, use index to obtain the method within the method, and then use reflection technology to pass it in.
 
-# 项目协同开发及使用 Implementing collaborative development and use of logic projects
-1: 本项目无偿开源给所有人使用，本项目更多的是展示一种可行性理念，其中还存在着诸多不足之处，还请各位同行见谅，
 
-1: This project is free of charge and open source for everyone to use. It is more about showcasing a feasible concept, but there are still many shortcomings. We apologize for any inconvenience caused.
-
-2: 如有兴趣对本项目进行修改提交的，可邮件联系，邮件应说明提交目的以及作者姓名（不要求实名但得有名字），采纳后会将您的姓名展示在下方作者处。
-
-2: If you are interested in submitting modifications to this project, you can contact us by email. The email should specify the purpose of submission and the name of the author (real name is not required, but a name is required). After adoption, your name will be displayed in the author section below.
-
-# 作者介绍 Author Introduction
-1: *李阳* 成都成电医星数字健康软件有限公司    java工程师     成都理工大学继续教育学院在读    邮箱:564066938@qq.com  
 
 
